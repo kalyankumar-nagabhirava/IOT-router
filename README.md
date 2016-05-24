@@ -17,14 +17,14 @@ How to use it:
 
 Add needed layer to bblayers.conf:
 
-meta-raspberrypi: bitbake-layers add-layer ../meta-raspberrypi
+2) meta-raspberrypi: bitbake-layers add-layer ../meta-raspberrypi
 
-2) meta-oic: bitbake-layers add-layer ../meta-oic
+3) meta-oic: bitbake-layers add-layer ../meta-oic
 
-3) meta-openembedded/meta-oe: bitbake-layers add-layer ../meta-openembedded/meta-oe/
+4) meta-openembedded/meta-oe: bitbake-layers add-layer ../meta-openembedded/meta-oe/
 
 
-4) Set MACHINE to "raspberrypi"/"raspberrypi2/"raspberrypi3" in conf/local.conf. (see note on sdl): echo 'MACHINE = "raspberrypi2"' >> conf/local.conf
+5) Set MACHINE to "raspberrypi"/"raspberrypi2/"raspberrypi3" in conf/local.conf. (see note on sdl): echo 'MACHINE = "raspberrypi2"' >> conf/local.conf
 
 
 dd to a SD card the generated sdimg file (use xzcat if rpi-sdimg.xz is used)
