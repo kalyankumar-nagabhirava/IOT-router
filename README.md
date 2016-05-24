@@ -4,6 +4,7 @@ Data router with IOT support to detect and control IOT devices with in the netwo
 To build IOT router for  RaspberryPi(2) clone below projects
 
 cd IOT-router
+
 git clone git://git.yoctoproject.org/poky branch: master revision: HEAD
 
 git clone git://git.openembedded.org/meta-openembedded 
