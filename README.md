@@ -26,6 +26,7 @@ Add needed layers to  conf/bblayers.conf:
 
 5) Set MACHINE to "raspberrypi"/"raspberrypi2/"raspberrypi3" in conf/local.conf. (see note on sdl): echo 'MACHINE = "raspberrypi3"' >> conf/local.conf
 
+6) bitbake rpi-oic-image
 
 dd to a SD card the generated sdimg file (use xzcat if rpi-sdimg.xz is used)
 Boot your RPI.
