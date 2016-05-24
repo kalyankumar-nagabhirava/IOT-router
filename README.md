@@ -15,7 +15,7 @@ How to use it:
 
 1) source poky/oe-init-build-env rpi-router-build
 
-Add needed layer to bblayers.conf:
+Add needed layers to  conf/bblayers.conf:
 
 2) meta-raspberrypi: bitbake-layers add-layer ../meta-raspberrypi
 
