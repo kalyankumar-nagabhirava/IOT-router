@@ -5,11 +5,11 @@ To build IOT router for  RaspberryPi(2) clone below projects
 
 cd IOT-router
 
-git clone git://git.yoctoproject.org/poky branch: master revision: HEAD
+git clone git://git.yoctoproject.org/poky 
 
 git clone git://git.openembedded.org/meta-openembedded 
 
-git clone git://git.yoctoproject.org/meta-raspberrypi layers: meta-raspberrypi branch: master revision: HEAD
+git clone git://git.yoctoproject.org/meta-raspberrypi 
 
 How to use it:
 
