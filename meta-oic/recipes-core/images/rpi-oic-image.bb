@@ -1,8 +1,8 @@
 # Copyright (C) 2016 kalyan kumar nagabhirava <kalyankumar.nagabhirava@gmail.com>
-# Released under the  license (see COPYING.MIT for the terms)
+# Released under apache  license (see COPYING for the terms)
 
 SUMMARY = "RPI image  with iotivity"
-LICENSE = "MIT"
+LICENSE = "APACHE2.0"
 
 IMAGE_FEATURES += " \
     package-management \
