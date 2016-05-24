@@ -24,7 +24,7 @@ Add needed layers to  conf/bblayers.conf:
 4) meta-openembedded/meta-oe: bitbake-layers add-layer ../meta-openembedded/meta-oe/
 
 
-5) Set MACHINE to "raspberrypi"/"raspberrypi2/"raspberrypi3" in conf/local.conf. (see note on sdl): echo 'MACHINE = "raspberrypi2"' >> conf/local.conf
+5) Set MACHINE to "raspberrypi"/"raspberrypi2/"raspberrypi3" in conf/local.conf. (see note on sdl): echo 'MACHINE = "raspberrypi3"' >> conf/local.conf
 
 
 dd to a SD card the generated sdimg file (use xzcat if rpi-sdimg.xz is used)
