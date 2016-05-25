@@ -499,3 +499,5 @@ RDEPENDS_iotivity-tests += "iotivity-resource iotivity-service glib-2.0"
 RDEPENDS_iotivity-service-samples += "iotivity-service iotivity-resource glib-2.0"
 RDEPENDS_iotivity-service += "iotivity-resource glib-2.0"
 BBCLASSEXTEND = "native nativesdk"
+FILES_${PN} += "/opt/iotivity/*"
+
