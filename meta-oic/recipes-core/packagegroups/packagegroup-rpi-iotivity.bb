@@ -1,8 +1,8 @@
 # Copyright (C) 2016 kalyan kumar <kalyankumar.nagabhirava@gmail.com>
-# Released under the apache license (see COPYING for the terms)
+# Released under the MIT license (see COPYING.MIT for the terms)
 
 DESCRIPTION = "iotivity Packagegroup"
-LICENSE = "APACHE2.0"
+LICENSE = "MIT"
 
 inherit packagegroup
 
@@ -12,4 +12,8 @@ PACKAGES = "\
 
 RDEPENDS_packagegroup-iotivity = "\
     iotivity \
+    iotivity-tests \   
+    iotivity-resource-samples \
+    iotivity-service-samples \
+    iotivity-plugins-samples \
 "
